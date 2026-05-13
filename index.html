@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flexbox Practice Project</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Learning Project</title>
+    
+    <!-- Google Fonts: Poppins (Ödev gereksinimi) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Dosyamız -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<main class="container">
+    <main class="container">
+        <h1>Flexbox Practice</h1>
+        
+        <div class="flex-wrapper">
+            <!-- HTML Card -->
+            <article class="card">
+                <h2>Learn HTML</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                <a href="https://lenguajehtml.com/html/" target="_blank" class="btn">Learn more about HTML</a>
+            </article>
 
-<article class="card">
-<h2 class="card__title">Learn HTML5</h2>
-<p class="card__description">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Donec vel egestas dolor, nec dignissim metus.
-</p>
-<a href="https://lenguajehtml.com/html/" class="card__link">Learn more about HTML</a>
-</article>
-
-<article class="card">
-<h2 class="card__title">Learn CSS3</h2>
-<p class="card__description">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Ut a enim id erat sapiente pellentesque.
-</p>
-<a href="https://lenguajecss.com/css/" class="card__link">Learn more about CSS</a>
-</article>
-
-</main>
+            <!-- CSS Card -->
+            <article class="card">
+                <h2>Learn CSS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                <a href="https://lenguajecss.com/css/" target="_blank" class="btn">Learn more about CSS</a>
+            </article>
+        </div>
+    </main>
 
 </body>
 </html>
